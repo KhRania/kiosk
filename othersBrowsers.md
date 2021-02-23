@@ -65,3 +65,12 @@
 ## Install :
     1) sudo apt-get update -y
     2) sudo apt-get install -y epiphany-browser
+## Kiosk mode :
+    epiphany-browser --application-mode --profile=~/.config https://www.youtube.com
+## Kill :
+
+# Lynx :
+    this browser is a character-based web browser that can be run inside a terminal or on the console.
+## Install :
+    1) sudo apt-get update -y
+    2) sudo apt-get install lynx -y
