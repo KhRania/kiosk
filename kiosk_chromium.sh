@@ -27,6 +27,7 @@
 ### --incognito : for private navigation
 
 chromium-browser --noerrdialogs --disable-infobars --kiosk http://151.253.224.74/
+#chromium --kiosk --enable-kiosk-mode --enabled --touch-events --touch-events-ui --disable-ipv6 --allow-file-access-from-files --disable-java --disable-restore-session-state --disable-sync --disable-translate --disk-cache-size=1 --media-cache-size=1 "http"
 unclutter -idle 0
 xrefresh
 #xscreensaver
