@@ -66,6 +66,7 @@ https://packages.ubuntu.com/bionic/x-display-manager
     1) installation de gnome-session :
         sudo apt install gnome-session
     2) installation xorg :
+        https://linuxconfig.org/how-to-run-x-applications-without-a-desktop-or-a-wm
         sudo apt-get install xorg
     => Detection de touchscreen mais pas d'affichage
     3) Réinstallation de DisplayLink :
