@@ -65,6 +65,8 @@ https://packages.ubuntu.com/bionic/x-display-manager
 
     1) installation de gnome-session :
         sudo apt install gnome-session
+        sudo update-alternatives --config gdm3.css
+
     2) installation xorg :
         https://linuxconfig.org/how-to-run-x-applications-without-a-desktop-or-a-wm
         sudo apt-get install xorg
@@ -80,6 +82,8 @@ https://packages.ubuntu.com/bionic/x-display-manager
    ## Test 2 avec gdm3:
 
     Il y a un affichage sur touchscreen qui est fluide mais avec une barre (voir vidéo): [ubuntuMiniGdm.mp4](https://trello-attachments.s3.amazonaws.com/5fe378b60e7edd0a10a098ee/60376c2933f8e85887a21344/5d588fe0937790b98c5f1fde92c590ff/ubuntuMiniGdm.mp4) 
+# Test xinput-calibrator :
+    xinput_calibrator --output-type xinput
 
-
+    https://wiki.ubuntu.com/Touchscreen
 
