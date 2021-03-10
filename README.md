@@ -13,17 +13,9 @@
 
 ## CLI 
 
-    1) cd ~/.config/autostart
-    2) sudo nano kiosk_chromium.desktop
-    
-    In the file :
-    [Desktop Entry]
-    Type=Application
-    Name=chromium_kiosk_launch
-    Exec=/home/ubecome/ubecome/kiosk_chromium.sh
-    X-GNOME-Autostart-enabled=true
-
-    3) chmod 777 kiosk_chromium.desktop
+    1) cd ~/.config/autostart ( or mkdir autostart in the directory does not exist)
+    2) sudo nano kiosk.desktop
+    3) chmod 777 kiosk.desktop
     4) sudo reboot
 
 
@@ -129,7 +121,7 @@
     follow instructions in this picture =>  images/disable_gnome_keyring.png
 ## CLI
      sudo chmod -x /usr/bin/gnome-keyring   
-
+     sudo chmod -x /etc/xdg/autostart/gnome-keyring-ssh.desktop
 # Step 7 : Wake up touch screen after blank screen :
 
 ## CLI :

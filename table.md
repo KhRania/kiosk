@@ -41,6 +41,7 @@ https://packages.ubuntu.com/bionic/x-display-manager
 # xorg install :
     sudo apt install gnome-session
     sudo apt-get install xorg
+    https://doc.ubuntu-fr.org/xorg
 # Test lxde sous Ubuntu 18.04 :
     for install lxde :
                         sudo apt-get install lxde
@@ -60,7 +61,10 @@ https://packages.ubuntu.com/bionic/x-display-manager
     ## Résultat : Affichage toujours lent    
 
 # Test Ubuntu mini (sans GUI):
-
+    sudo apt install gnome-session
+    sudo apt install ubuntu-gnome-default-settings
+    sudo apt install vanilla-gnome-default-settings vanilla-gnome-desktop
+    sudo apt install ubuntu-gnome-desktop 
     Test 1 avec lightDm :
 
     1) installation de gnome-session :
@@ -83,7 +87,14 @@ https://packages.ubuntu.com/bionic/x-display-manager
 
     Il y a un affichage sur touchscreen qui est fluide mais avec une barre (voir vidéo): [ubuntuMiniGdm.mp4](https://trello-attachments.s3.amazonaws.com/5fe378b60e7edd0a10a098ee/60376c2933f8e85887a21344/5d588fe0937790b98c5f1fde92c590ff/ubuntuMiniGdm.mp4) 
 # Test xinput-calibrator :
+    sudo apt update
+    sudo apt install xinput-calibrator
     xinput_calibrator --output-type xinput
 
     https://wiki.ubuntu.com/Touchscreen
 
+# Display Link :
+    sudo apt-get update
+    sudo apt-get dist-upgrade
+    sudo apt-get install dkms -y
+    sudo apt-get install libdrm-dev -y
