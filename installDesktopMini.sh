@@ -19,6 +19,8 @@ sudo apt-get install dkms -y
 sudo apt-get install libdrm-dev -y
 # install ssh for ssh connection
 sudo apt install openssh-server -y
+# install chromium browser
+sudo apt-get install chromium-browser -y
 echo "installation completed"
 
 

@@ -3,7 +3,7 @@
 # Run chrome in KIOSK mode                              #
 #                                                       #
 # this script should be in the user's home              #
-# /home/ubecome/kiosk/kioskLaunch.sh                    #
+# /home/ubecome/ubecome/kiosk/kioskLaunch.sh            #
 # and should have exec right                            #
 # $ sudo chmod 777 kioskLaunch.sh                       #
 #                                                       #

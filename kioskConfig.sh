@@ -4,7 +4,7 @@
 # this script should be runned once for set             # 
 # the configuration for kiosk mode                      #
 # and should have exec right                            #
-# $ sudo chmod 777 config.sh                            #
+# $ sudo chmod 777 kioskConfig.sh                       #
 #                                                       #
 #########################################################
 
@@ -18,7 +18,7 @@ KEYRING_PATH='/usr/bin'
 if [ -e "$PW" ]; then
     sudo sed -i '/%sudo/s/ALL=(ALL:ALL) ALL/ALL=(ALL:ALL) NOPASSWD: ALL/' $PW
 fi
-#disable wayland protocol
+#Disable wayland protocol
 if [ -e "$DISPLAY" ]; then
     sudo sed -i 's/#WaylandEnable=false/WaylandEnable=false/g' $DISPLAY
 fi
@@ -46,3 +46,4 @@ gsettings set org.gnome.desktop.session idle-delay 3600
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 # Disable Screen Saver Locking
 gsettings set org.gnome.desktop.screensaver lock-enabled false
+echo "configuration completed"
