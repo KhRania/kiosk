@@ -3,9 +3,9 @@
 # Run chrome in KIOSK mode                              #
 #                                                       #
 # this script should be in the user's home              #
-# /home/ubecome/kiosk_chromium.sh                       #
+# /home/ubecome/kiosk/kioskLaunch.sh                    #
 # and should have exec right                            #
-# $ chmod 777 kiosk_chromium.sh                         #
+# $ sudo chmod 777 kioskLaunch.sh                       #
 #                                                       #
 #########################################################
 
@@ -28,8 +28,8 @@
 
 chromium-browser --noerrdialogs --disable-infobars --kiosk http://151.253.224.74/
 #chromium --kiosk --enable-kiosk-mode --enabled --touch-events --touch-events-ui --disable-ipv6 --allow-file-access-from-files --disable-java --disable-restore-session-state --disable-sync --disable-translate --disk-cache-size=1 --media-cache-size=1 "http"
-unclutter -idle 0
-xrefresh
+#unclutter -idle 0
+#xrefresh
 #xscreensaver
 
 

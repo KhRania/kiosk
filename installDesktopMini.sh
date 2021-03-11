@@ -13,7 +13,7 @@ sudo apt-get install xorg -y
 sudo apt-get install gdm3 -y
 sudo service gdm3 start
 # install dkms and libdrm-dev in the case if the touchscreen driver does not exist
-# in the case that displaylink does not exist you should install the driver ( lsusb to check the existance after installation)
+# in the case that displaylink does not exist you should install the driver ( lsusb to check the existence after installation)
 sudo apt-get dist-upgrade
 sudo apt-get install dkms -y
 sudo apt-get install libdrm-dev -y
