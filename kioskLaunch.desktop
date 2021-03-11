@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=chromium_kiosk_launch
-Exec=/home/ubecome/ubecome/kiosk_chromium.sh
+Exec=/home/ubecome/ubecome/kioskLaunch.sh
 X-GNOME-Autostart-enabled=true
