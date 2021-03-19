@@ -64,7 +64,7 @@ sudo apt-get install chromium-browser -y
 mkdir -p -- "$CHROMIUM_START"
 cat > $CHROMIUM_START/kioskLaunch.sh << EOF1
 #!/bin/bash
-chromium-browser --noerrdialogs --disable-infobars --kiosk https://www.youtube.com/watch?v=feIUWx_Z5Ps
+chromium-browser --noerrdialogs --disable-infobars --kiosk http://10.78.51.201:3000/
 EOF1
 sudo chmod +x $CHROMIUM_START/kioskLaunch.sh
 echo "kioskLaunch.sh created"
