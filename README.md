@@ -10,7 +10,7 @@
                     Command:                chromium-browser http://localhost:3000/ --kiosk
     Next click “Add” to add this new startup program to the list of startup programs.
     4) sudo reboot
-
+    https://specifications.freedesktop.org/autostart-spec/0.5/ar01s02.html
 ## CLI 
 
     1) cd ~/.config/autostart ( or mkdir autostart in the directory does not exist)
