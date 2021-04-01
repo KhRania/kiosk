@@ -51,8 +51,8 @@ fi
 if [ -e "$UPDATE" ]; then
     sudo sed -i '/APT::Periodic::Update-Package-Lists/s/"1"/"0"/' $UPDATE
 fi
-#Set the "Blank screen" delay (one hour in our case)
-gsettings set org.gnome.desktop.session idle-delay 3600
+#Set the "Blank screen" delay (never in our case)
+gsettings set org.gnome.desktop.session idle-delay 0
 #Disable the lock screen
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 # Disable Screen Saver Locking

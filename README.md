@@ -51,8 +51,9 @@
 
     1) Set the "Blank screen" delay (one hour in our case) :
 
-    gsettings set org.gnome.desktop.session idle-delay 3600
-
+    gsettings set org.gnome.desktop.session idle-delay 0
+    https://superuser.com/questions/727120/make-gnome-screen-lock-after-1-hour-not-15-minutes
+    http://manpages.ubuntu.com/manpages/bionic/man1/gsettings.1.html
     2) Disable the lock screen :
 
     gsettings set org.gnome.desktop.lockdown disable-lock-screen true
